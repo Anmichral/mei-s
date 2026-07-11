@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-basic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-basic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1+basic">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title />
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2026-07-11T15:57:30" />
+         </pubStmt>
+      </fileDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef>
+                  <staffGrp>
+                     <staffDef n="1" lines="5" meter.count="6" meter.unit="8">
+                        <label>Piano, Violin 9</label>
+                        <labelAbbr>Pno.</labelAbbr>
+                        <instrDef midi.instrnum="0" />
+                        <clef shape="G" line="2" />
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s1">
+                  <pb />
+                  <measure xml:id="m16bojaw" n="1">
+                     <staff xml:id="m1s1" n="1">
+                        <layer xml:id="m1s1l1" n="1">
+                           <rest xml:id="r1nqw1mp" dur="4" />
+                           <note xml:id="n10tnkip" vel="102" dur="8" pname="c" oct="4">
+                              <accid xml:id="a19gsyjw" accid="s" />
+                           </note>
+                           <note xml:id="n133d1ex" vel="80" dur="8" pname="e" oct="4">
+                              <accid xml:id="a1udke9j" accid="f" />
+                           </note>
+                           <note xml:id="nga1qu1" vel="102" dur="4" pname="f" oct="4">
+                              <accid xml:id="aette5x" accid="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                     <tempo xml:id="t1eg5g9o" midi.bpm="160" staff="1" tstamp="1">
+                        <rend glyph.auth="smufl"></rend> = 160</tempo>
+                  </measure>
+                  <measure xml:id="mpcu0x4" n="2">
+                     <staff xml:id="m2s1" n="1">
+                        <layer xml:id="m2s1l1" n="1">
+                           <note xml:id="n8yvedf" vel="113" dur="4" pname="g" oct="4">
+                              <accid xml:id="alqu7zd" accid="s" />
+                           </note>
+                           <note xml:id="n4t26ok" vel="102" dur="8" pname="f" oct="4">
+                              <accid xml:id="a1enarwq" accid="s" />
+                           </note>
+                           <note xml:id="no3ye8l" vel="81" dur="8" pname="e" oct="4">
+                              <accid xml:id="a1clacs1" accid="f" />
+                           </note>
+                           <note xml:id="n5981md" vel="102" dur="4" pname="c" oct="4">
+                              <accid xml:id="a1mh2gd9" accid="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m1vqqh6i" n="3">
+                     <staff xml:id="m3s1" n="1">
+                        <layer xml:id="m3s1l1" n="1">
+                           <note xml:id="n1lrx2mh" vel="121" dur="4" pname="e" oct="4">
+                              <accid xml:id="ab9jl93" accid="f" />
+                           </note>
+                           <note xml:id="n1eue0ga" vel="102" dur="8" pname="g" oct="4">
+                              <accid xml:id="a1mgjtm" accid="s" />
+                           </note>
+                           <note xml:id="n88rhbm" vel="84" dur="8" pname="b" oct="4">
+                              <accid xml:id="a1gdspet" accid="f" />
+                           </note>
+                           <note xml:id="n1altmtc" vel="102" dur="4" pname="c" oct="4">
+                              <accid xml:id="a1f1x094" accid="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m1xgb2l4" n="4">
+                     <staff xml:id="m4s1" n="1">
+                        <layer xml:id="m4s1l1" n="1">
+                           <note xml:id="nlq8e6u" vel="114" dur="4" pname="e" oct="4">
+                              <accid xml:id="a1db8mqw" accid="f" />
+                           </note>
+                           <note xml:id="nqpu9f" vel="102" dur="8" pname="c" oct="4">
+                              <accid xml:id="akpz27x" accid="s" />
+                           </note>
+                           <note xml:id="n1fsl0r9" vel="77" dur="8" pname="b" oct="4">
+                              <accid xml:id="ac5asmu" accid="f" />
+                           </note>
+                           <note xml:id="nmpafoo" vel="102" dur="4" pname="g" oct="4">
+                              <accid xml:id="a1ww0fgq" accid="s" />
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mnm74ul" right="end" n="5">
+                     <staff xml:id="m5s1" n="1">
+                        <layer xml:id="m5s1l1" n="1">
+                           <note xml:id="n1ry12yw" vel="116" dots="1" dur="4" pname="f" oct="4">
+                              <artic xml:id="a1lq3z4p" artic="stacc" />
+                              <accid xml:id="av6uwc0" accid="s" />
+                           </note>
+                           <rest xml:id="rvll9l6" dots="1" dur="4" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
